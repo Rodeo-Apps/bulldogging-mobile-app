@@ -33,6 +33,9 @@ module.exports = {
     plugins: ['expo-router', 'expo-video'],
     experiments: { typedRoutes: true },
     extra: {
+      eas: {
+        projectId: "bfdd4a7f-5301-4ff4-96e0-088269409042"
+      },
       domain: "bulldogging.pro",
       eventType: "steerwrestling",
     },
